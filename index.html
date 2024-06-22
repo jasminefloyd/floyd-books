@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Book App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Book App</h1>
+    </header>
+    <main>
+        <div id="book-list">
+            <h2>Books Available</h2>
+            <ul>
+                <li><a href="#" data-book="book1.html">Book Title 1</a></li>
+                <li><a href="#" data-book="book2.html">Book Title 2</a></li>
+            </ul>
+        </div>
+        <div id="book-content">
+            <div id="book-pages">
+                <div class="page" id="page1"></div>
+                <div class="page" id="page2"></div>
+            </div>
+            <div id="controls">
+                <button id="prev-page">Previous</button>
+                <button id="next-page">Next</button>
+            </div>
+        </div>
+    </main>
+    <audio id="page-turn-sound" src="assets/sounds/page-turn.mp3"></audio>
+    <script src="action.js"></script>
+</body>
+</html>

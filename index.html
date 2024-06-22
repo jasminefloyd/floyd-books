@@ -9,19 +9,19 @@
 <body>
     <header>
         <h1>Digital Book App</h1>
+        <button id="home-button" style="display: none;">Home</button>
     </header>
     <main>
-        <div id="book-list">
+        <div id="home-page">
             <h2>Books Available</h2>
-            <ul>
+            <ul id="book-list">
                 <li><a href="#" data-book="book1.html">Book Title 1</a></li>
                 <li><a href="#" data-book="book2.html">Book Title 2</a></li>
             </ul>
         </div>
-        <div id="book-content">
-            <div id="book-pages">
-                <div class="page" id="page1"></div>
-                <div class="page" id="page2"></div>
+        <div id="book-content" style="display: none;">
+            <div id="book-pages-container">
+                <div id="book-pages"></div>
             </div>
             <div id="controls">
                 <button id="prev-page">Previous</button>
